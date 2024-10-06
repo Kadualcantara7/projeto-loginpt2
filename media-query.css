@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+
+    main {
+        background-image: url(fundo2.jpg);
+        background-size: cover;
+        background-position: 30% 45%;    
+    }
+    
+    div#imagem {
+        
+    }
+
+    div h1 {
+        font-size: 2em;
+    }
+
+    div p {
+        font-size: 1.2em;
+    }
+
+    section#tela {
+        width: 445px;
+        height: 530px;
+        padding: 10px;
+    }
+
+    form input[type=email] {
+        width: 100%;
+        width: calc(100% - 28px);
+        border-radius: 0px 10px 10px 10px;
+        
+    }
+
+    form input[type=password] {
+        width: 100%;
+        width: calc(100% - 28px);
+        border-radius: 0px 10px 10px 10px;
+    }
+
+    form input[type=submit] {
+        width: 30%;
+        height: 40px;
+        display: inline-block;
+    }
+
+    form input[type=button] {
+        width: 30%;
+        height: 40px;
+        display: inline-block;
+    }
+
+    form input[type=submit]:hover {
+        font-size: 1em;
+        color: rgb(0, 47, 255);
+        transition: background-color 0s
+    }
+
+    form input[type=button]:hover { 
+        color: rgb(0, 47, 255);
+        transition: background-color 0s
+    }
+
+}
+@media screen and (min-width:1025px) and (max-width:1920px) {
+    section#tela {
+        
+    }
+
+    
+}
