@@ -5,13 +5,6 @@
     padding: 0px;
 }
 
-:root {
-    --cor1:#000dff;
-    --cor2:#1821be;
-    --cor3:#242a9e;
-    --cor4:#000346;
-}
-
 main {
     width: 100vw;
     height: 100vh;
