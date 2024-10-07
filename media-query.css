@@ -65,9 +65,37 @@
 
 }
 @media screen and (min-width:1025px) and (max-width:1920px) {
-    section#tela {
-        
+
+    main {
+        background-image: url(fundo2.jpg);
+        background-size: cover;
+        background-position: center;
     }
 
-    
+    section#tela {
+        width: 900px;
+        height: 375px;
+        float: left;
+    }
+
+    div#imagem {
+       float: right;
+       width: 50%;
+       height: 100%;
+    }
+
+    div#formulario {
+        width: 40%;
+        padding: 47px;
+    }
+
+    form input[type=email] {
+        width: 100%;
+        width: calc(100% - 28px);
+    }
+
+    form input[type=password] {
+        width: 100%;
+        width: calc(100% - 28px);
+    }
 }
